@@ -1,0 +1,11 @@
+processStatusId: '1'
+entityId: null
+eventType: CREATE_SUBSCRIPTION
+description: 'Create push notification subscription.'
+status:
+    pending: true
+    success: false
+    failure: false
+    timeout: false
+errorMessage: null
+createTimestamp: '2000-01-01T00:00:00+01:00'

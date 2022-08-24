@@ -1,0 +1,11 @@
+processStatusId: '2'
+entityId: '555552'
+eventType: CANCEL_ORDER
+description: 'This is a mocked process status.'
+status:
+    pending: false
+    success: true
+    failure: false
+    timeout: false
+errorMessage: null
+createTimestamp: '2000-01-01T00:00:00+01:00'

@@ -1,0 +1,37 @@
+orderId: '1043946570'
+pickupPoint: true
+orderPlacedDateTime: '2019-04-29T18:18:21+02:00'
+shipmentDetails:
+    pickupPointName: 'Albert Heijn: UTRECHT'
+    salutation: MALE
+    firstName: Pieter
+    surname: Post
+    streetName: Skywalkerstraat
+    houseNumber: '21'
+    houseNumberExtension: null
+    extraAddressInformation: null
+    zipCode: 1234AB
+    city: PLATOONDORP
+    countryCode: NL
+    email: 2puwjjic7wxsbmkj3bc2v6jsj2wimk@verkopen.test2.bol.com
+    company: null
+    deliveryPhoneNumber: null
+    language: nl
+billingDetails:
+    salutation: MALE
+    firstName: Pieter
+    surname: Post
+    streetName: Skywalkerstraat
+    houseNumber: '21'
+    houseNumberExtension: X
+    extraAddressInformation: 'Extra informatie'
+    zipCode: 1234AB
+    city: PLATOONDORP
+    countryCode: NL
+    email: 2yldzdi2wjcf5ir4sycq7lufqpytxy@verkopen.test2.bol.com
+    company: 'Pieter Post'
+    vatNumber: NL123456789B01
+    kvkNumber: '99887766'
+    orderReference: 'Mijn order ref'
+orderItems:
+    - { orderItemId: '6042823871', cancellationRequest: false, fulfilment: { method: FBR, distributionParty: RETAILER, latestDeliveryDate: '2019-05-01', exactDeliveryDate: null, expiryDate: '2019-05-04', timeFrameType: REGULAR }, offer: { offerId: 8f6285e3-de98-c97f-e053-3544090a63b3, reference: MijnOffer6627 }, product: { ean: '8717418510749', title: 'Star Wars - The happy family 2' }, quantity: 3, quantityShipped: 3, quantityCancelled: 0, unitPrice: 11.0, commission: 2.22, additionalServices: {  } }

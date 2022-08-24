@@ -1,0 +1,11 @@
+processStatusId: '4'
+entityId: '555554'
+eventType: CHANGE_TRANSPORT
+description: 'This is a mocked process status.'
+status:
+    pending: false
+    success: false
+    failure: true
+    timeout: false
+errorMessage: null
+createTimestamp: '2000-01-01T00:00:00+01:00'

@@ -1,0 +1,38 @@
+orderId: '1042831430'
+pickupPoint: false
+orderPlacedDateTime: '2019-04-20T12:58:39+02:00'
+shipmentDetails:
+    pickupPointName: null
+    salutation: MALE
+    firstName: Hans
+    surname: 'de Grote'
+    streetName: Skywalkerstraat
+    houseNumber: '199'
+    houseNumberExtension: B
+    extraAddressInformation: Apartment
+    zipCode: '1200'
+    city: BRUSSEL
+    countryCode: BE
+    email: 2mqmu3hefoawq3mqgzxh4hbpkyh2rs@verkopen.test2.bol.com
+    company: null
+    deliveryPhoneNumber: null
+    language: nl
+billingDetails:
+    salutation: MALE
+    firstName: Pieter
+    surname: Post
+    streetName: Skywalkerstraat
+    houseNumber: '21'
+    houseNumberExtension: X
+    extraAddressInformation: 'Extra informatie'
+    zipCode: 1234AB
+    city: PLATOONDORP
+    countryCode: NL
+    email: 2yldzdi2wjcf5ir4sycq7lufqpytxy@verkopen.test2.bol.com
+    company: 'Pieter Post'
+    vatNumber: NL123456789B01
+    kvkNumber: '99887766'
+    orderReference: 'Mijn order ref'
+orderItems:
+    - { orderItemId: '6107331382', cancellationRequest: false, fulfilment: { method: FBR, distributionParty: RETAILER, latestDeliveryDate: '2018-04-18', exactDeliveryDate: null, expiryDate: '2018-04-21', timeFrameType: REGULAR }, offer: { offerId: 8f6283e3-de98-c92f-e053-3598790a63b5, reference: MijnOffer0021 }, product: { ean: '8712626055143', title: 'Star Wars - The happy family 2' }, quantity: 1, quantityShipped: 1, quantityCancelled: 0, unitPrice: 22.98, commission: 2.22, additionalServices: {  } }
+    - { orderItemId: '6107331383', cancellationRequest: false, fulfilment: { method: FBR, distributionParty: RETAILER, latestDeliveryDate: '2018-04-21', exactDeliveryDate: null, expiryDate: '2018-04-21', timeFrameType: REGULAR }, offer: { offerId: 8f6125e3-de98-c08f-e053-3523590a63b9, reference: MijnOffer1121 }, product: { ean: '8717418510749', title: 'Star Wars - The happy family 2' }, quantity: 3, quantityShipped: 2, quantityCancelled: 0, unitPrice: 10.3, commission: 2.22, additionalServices: {  } }

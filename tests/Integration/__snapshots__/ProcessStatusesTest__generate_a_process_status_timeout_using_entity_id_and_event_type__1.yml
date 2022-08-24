@@ -1,0 +1,11 @@
+processStatusId: '3'
+entityId: '555553'
+eventType: CREATE_INBOUND
+description: 'This is a mocked process status.'
+status:
+    pending: false
+    success: false
+    failure: false
+    timeout: true
+errorMessage: null
+createTimestamp: '2000-01-01T00:00:00+01:00'

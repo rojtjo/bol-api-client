@@ -1,0 +1,81 @@
+-
+    offerId: 4ae7a221-65e7-a333-e620-3f8e1caab5c3
+    ean: '8785073983111'
+    bundlePricesPrice: 12.0
+    stockAmount: 1
+    onHoldByRetailer: false
+    condition: { name: { name: AsNew, value: AS_NEW }, category: { name: Secondhand, value: SECONDHAND }, comment: null }
+    fulfilment: { method: { name: ByRetailer, value: FBR }, deliveryCode: { name: _3_5d, value: 3-5d } }
+    mutationDateTime: '2019-03-07T14:00:32+00:00'
+-
+    offerId: 10a07134-4cfe-ff0f-db62-ef161caab5c3
+    ean: '8785085422042'
+    bundlePricesPrice: 6.99
+    stockAmount: 1
+    onHoldByRetailer: false
+    condition: { name: { name: AsNew, value: AS_NEW }, category: { name: Secondhand, value: SECONDHAND }, comment: null }
+    fulfilment: { method: { name: ByRetailer, value: FBR }, deliveryCode: { name: _1_8d, value: 1-8d } }
+    mutationDateTime: '2019-03-07T14:00:32+00:00'
+-
+    offerId: 4a6cba69-9a44-500a-f620-2c2f1caab5c3
+    ean: '8785070519503'
+    bundlePricesPrice: 19.0
+    stockAmount: 1
+    onHoldByRetailer: false
+    condition: { name: { name: Good, value: GOOD }, category: { name: Secondhand, value: SECONDHAND }, comment: null }
+    fulfilment: { method: { name: ByRetailer, value: FBR }, deliveryCode: { name: _3_5d, value: 3-5d } }
+    mutationDateTime: '2019-03-07T14:00:32+00:00'
+-
+    offerId: 3af57b89-4ad1-23db-6200-9e8a1caab5c3
+    ean: '8717418510749'
+    bundlePricesPrice: 22.98
+    stockAmount: 1
+    onHoldByRetailer: false
+    condition: { name: { name: New, value: NEW }, category: { name: New, value: NEW }, comment: null }
+    fulfilment: { method: { name: ByRetailer, value: FBR }, deliveryCode: { name: _3_5d, value: 3-5d } }
+    mutationDateTime: '2019-03-07T14:00:32+00:00'
+-
+    offerId: 4fb681a1-3e92-679e-0620-27f91caab5c3
+    ean: '8785074815555'
+    bundlePricesPrice: 40.0
+    stockAmount: 1
+    onHoldByRetailer: false
+    condition: { name: { name: Reasonable, value: REASONABLE }, category: { name: Secondhand, value: SECONDHAND }, comment: 'kleine schade' }
+    fulfilment: { method: { name: ByRetailer, value: FBR }, deliveryCode: { name: _3_5d, value: 3-5d } }
+    mutationDateTime: '2019-03-07T14:00:32+00:00'
+-
+    offerId: 25a6fdb1-cdba-e85b-8620-d6e51caab5c3
+    ean: '8785085426016'
+    bundlePricesPrice: 12.0
+    stockAmount: 1
+    onHoldByRetailer: false
+    condition: { name: { name: AsNew, value: AS_NEW }, category: { name: Secondhand, value: SECONDHAND }, comment: null }
+    fulfilment: { method: { name: ByRetailer, value: FBR }, deliveryCode: { name: _2_3d, value: 2-3d } }
+    mutationDateTime: '2019-03-07T14:00:32+00:00'
+-
+    offerId: 3bffef8b-edb3-ec1f-6200-70cf1caab5c3
+    ean: '8785060056857'
+    bundlePricesPrice: 22.9
+    stockAmount: 1
+    onHoldByRetailer: false
+    condition: { name: { name: New, value: NEW }, category: { name: New, value: NEW }, comment: null }
+    fulfilment: { method: { name: ByRetailer, value: FBR }, deliveryCode: { name: _2_3d, value: 2-3d } }
+    mutationDateTime: '2019-03-07T14:00:32+00:00'
+-
+    offerId: 8ef22a4d-616e-39f1-7620-91ec1caab5c3
+    ean: '8785056370398'
+    bundlePricesPrice: 20.0
+    stockAmount: 1
+    onHoldByRetailer: false
+    condition: { name: { name: Good, value: GOOD }, category: { name: Secondhand, value: SECONDHAND }, comment: null }
+    fulfilment: { method: { name: ByRetailer, value: FBR }, deliveryCode: { name: _3_5d, value: 3-5d } }
+    mutationDateTime: '2019-03-07T14:00:32+00:00'
+-
+    offerId: 61924888-6b8c-8ebb-3620-9f0a1caab5c3
+    ean: '8785073140359'
+    bundlePricesPrice: 30.9
+    stockAmount: 1
+    onHoldByRetailer: false
+    condition: { name: { name: New, value: NEW }, category: { name: New, value: NEW }, comment: null }
+    fulfilment: { method: { name: ByRetailer, value: FBR }, deliveryCode: { name: _3_5d, value: 3-5d } }
+    mutationDateTime: '2019-03-07T14:00:32+00:00'

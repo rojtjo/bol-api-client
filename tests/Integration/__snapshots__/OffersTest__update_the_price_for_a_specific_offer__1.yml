@@ -1,0 +1,11 @@
+processStatusId: '1'
+entityId: 13722de8-8182-d161-5422-4a0a1caab5c8
+eventType: UPDATE_OFFER_PRICE
+description: 'Update price for offer with id 13722de8-8182-d161-5422-4a0a1caab5c8.'
+status:
+    pending: true
+    success: false
+    failure: false
+    timeout: false
+errorMessage: null
+createTimestamp: '2000-01-01T00:00:00+01:00'
