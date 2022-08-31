@@ -14,9 +14,9 @@
         "ext-openssl": "*",
         "illuminate/collections": "^9.26",
         "league/csv": "^9.0",
-        "psr/http-client": "^1.0"
+        "psr/http-client": "^1.0",
         "psr/simple-cache": "^3.0",
-        "webmozart/assert": "^1.11",
+        "webmozart/assert": "^1.11"
     },
     "require-dev": {
         "guzzlehttp/guzzle": "^7.0.1",
