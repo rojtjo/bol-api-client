@@ -15,7 +15,8 @@
         "psr/simple-cache": "^3.0",
         "league/csv": "^9.0",
         "webmozart/assert": "^1.11",
-        "illuminate/collections": "^9.26"
+        "illuminate/collections": "^9.26",
+        "psr/http-client": "^1.0"
     },
     "require-dev": {
         "guzzlehttp/guzzle": "^7.0.1",
