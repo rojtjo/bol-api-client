@@ -8,7 +8,7 @@ final class OrderOffer
 {
     public function __construct(
         public readonly string $offerId,
-        public readonly string $reference,
+        public readonly ?string $reference,
     )
     {
     }

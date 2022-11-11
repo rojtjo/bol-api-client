@@ -72,7 +72,7 @@ final class Order
                         ),
                         new OrderOffer(
                             $orderItem['offer']['offerId'],
-                            $orderItem['offer']['reference'],
+                            $orderItem['offer']['reference'] ?? null,
                         ),
                         new OrderProduct(
                             $orderItem['product']['ean'],
