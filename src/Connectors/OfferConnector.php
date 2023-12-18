@@ -75,7 +75,7 @@ final class OfferConnector extends ConnectorAbstract
     public function retrieveOfferExportFile(string $exportId): ExportOfferCollection
     {
         $data = $this->send('GET', "offers/export/$exportId", headers: [
-            'Accept' => 'application/vnd.retailer.v7+csv',
+            'Accept' => 'application/vnd.retailer.v8+csv',
         ]);
 
         return ExportOfferCollection::fromPayload($data);

@@ -34,4 +34,4 @@ billingDetails:
     kvkNumber: '99887766'
     orderReference: 'Mijn order ref'
 orderItems:
-    - { orderItemId: '6107989317', cancellationRequest: false, fulfilment: { method: FBB, distributionParty: RETAILER, latestDeliveryDate: '2019-05-01', exactDeliveryDate: null, expiryDate: '2019-05-04', timeFrameType: REGULAR }, offer: { offerId: 8f2785e3-de98-c97f-e053-3585190a63c1, reference: MijnOffer6627 }, product: { ean: '8717418510749', title: 'Star Wars - The happy family' }, quantity: 2, quantityShipped: 2, quantityCancelled: 0, unitPrice: 22.45, commission: 2.22, additionalServices: {  } }
+    - { orderItemId: '6107989317', cancellationRequest: false, fulfilment: { method: FBB, distributionParty: RETAILER, latestDeliveryDate: '2019-05-01', exactDeliveryDate: null, expiryDate: '2019-05-04', timeFrameType: REGULAR }, offer: { offerId: 8f2785e3-de98-c97f-e053-3585190a63c1, reference: MijnOffer6627 }, product: { ean: '8717418510749', title: 'Star Wars - The happy family' }, quantity: 2, quantityShipped: 2, quantityCancelled: 0, unitPrice: 22.45, commission: 2.22, additionalServices: {  }, latestChangedDateTime: '2019-04-30T21:56:39+02:00' }

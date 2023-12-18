@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Rojtjo\Bol\Types;
 
+use DateTimeImmutable;
+
 final class Order
 {
     public function __construct(
@@ -91,6 +93,7 @@ final class Order
                                 $orderItem['additionalServices'] ?? [],
                             ),
                         ),
+                        new DateTimeImmutable($orderItem['latestChangedDateTime'])
                     ),
                     $payload['orderItems'],
                 ),

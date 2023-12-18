@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Rojtjo\Bol\Types;
 
+use DateTimeImmutable;
+
 final class ReducedOrder
 {
     /**
@@ -26,9 +28,13 @@ final class ReducedOrder
                 fn (array $item) => new ReducedOrderItem(
                     orderItemId: (string) $item['orderItemId'],
                     ean: (string) $item['ean'],
+                    fulfilmentMethod: FulfilmentMethod::from($item['fulfilmentMethod']),
+                    fulfilmentStatus: OrderStatus::from($item['fulfilmentStatus']),
                     quantity: (int) $item['quantity'],
                     quantityShipped: (int) $item['quantityShipped'],
                     quantityCancelled: (int) $item['quantityCancelled'],
+                    cancellationRequest: (bool) $item['cancellationRequest'],
+                    latestChangedDateTime: new DateTimeImmutable($item['latestChangedDateTime']),
                 ),
                 $payload['orderItems'] ?? [],
             ),

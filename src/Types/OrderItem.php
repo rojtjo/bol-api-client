@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Rojtjo\Bol\Types;
 
+use DateTimeImmutable;
+
 final class OrderItem
 {
     public function __construct(
@@ -18,6 +20,7 @@ final class OrderItem
         public readonly float $unitPrice,
         public readonly float $commission,
         public readonly AdditionalServiceCollection $additionalServices,
+        public readonly DateTimeImmutable $latestChangedDateTime,
     )
     {
     }

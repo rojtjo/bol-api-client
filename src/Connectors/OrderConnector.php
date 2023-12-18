@@ -18,11 +18,19 @@ final class OrderConnector extends ConnectorAbstract
         return Api::Retailer;
     }
 
-    public function orders(FulfilmentMethod $fulfilment = FulfilmentMethod::ByRetailer, OrderStatus $status = OrderStatus::Open): ReducedOrderCollection
+    public function orders(
+        FulfilmentMethod $fulfilment = FulfilmentMethod::ByRetailer,
+        OrderStatus $status = OrderStatus::Open,
+        ?int $changeIntervalMinute = null,
+        ?string $latestChangeDate = null,
+
+    ): ReducedOrderCollection
     {
         $data = $this->send('GET', 'orders', query: [
-            'fulfilment-method' => $fulfilment,
-            'status'            => $status,
+            'fulfilment-method'      => $fulfilment,
+            'status'                 => $status,
+            'change-internal-minute' => $changeIntervalMinute,
+            'latest-change-date'     => $latestChangeDate,
         ]);
 
         return ReducedOrderCollection::fromPayload($data);

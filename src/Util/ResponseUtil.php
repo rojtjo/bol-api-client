@@ -22,7 +22,7 @@ final class ResponseUtil
     public static function decodeBody(ResponseInterface $response): mixed
     {
         $contentType = $response->getHeaderLine('Content-Type');
-        if (str_contains($contentType, 'application/vnd.retailer.v7+json')) {
+        if (str_contains($contentType, 'application/vnd.retailer.v8+json')) {
             return self::decodeJson($response);
         }
 

@@ -11,7 +11,7 @@ final class OrdersTest extends IntegrationTestCase
 {
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v7-ORDERS.html#_get_single_fbb_order_with_order_id_1042823870
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v8-ORDERS.html#_get_single_fbb_order_with_order_id_1042823870
      */
     public function get_single_fbb_order_with_order_id_1042823870(): void
     {
@@ -24,7 +24,7 @@ final class OrdersTest extends IntegrationTestCase
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v7-ORDERS.html#_get_single_fbr_order_with_order_id_1042831430
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v8-ORDERS.html#_get_single_fbr_order_with_order_id_1042831430
      */
     public function get_single_fbr_order_with_order_id_1042831430(): void
     {
@@ -37,7 +37,7 @@ final class OrdersTest extends IntegrationTestCase
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v7-ORDERS.html#_get_single_fbr_order_with_order_id_1042831430
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v8-ORDERS.html#_get_single_fbr_order_with_order_id_1042831430
      */
     public function get_single_fbb_order_with_order_id_1043965710(): void
     {
@@ -50,7 +50,7 @@ final class OrdersTest extends IntegrationTestCase
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v7-ORDERS.html#_get_single_fbr_order_with_order_id_a4k8290lp0
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v8-ORDERS.html#_get_single_fbr_order_with_order_id_a4k8290lp0
      */
     public function get_single_fbr_order_with_order_id_a4k8290lp0(): void
     {
@@ -63,7 +63,7 @@ final class OrdersTest extends IntegrationTestCase
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v7-ORDERS.html#_get_single_fbr_order_with_order_id_1043946570
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v8-ORDERS.html#_get_single_fbr_order_with_order_id_1043946570
      */
     public function get_single_fbr_order_with_order_id_1043946570(): void
     {
@@ -76,7 +76,7 @@ final class OrdersTest extends IntegrationTestCase
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v7-ORDERS.html#_get_single_fbr_order_with_order_id_b3k8290lp0
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v8-ORDERS.html#_get_single_fbr_order_with_order_id_b3k8290lp0
      */
     public function get_single_fbr_order_with_order_id_b3k8290lp0(): void
     {
@@ -89,7 +89,7 @@ final class OrdersTest extends IntegrationTestCase
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v7-ORDERS.html#_get_fbb_orders_with_status_all
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v8-ORDERS.html#_get_fbb_orders_with_status_all
      */
     public function get_fbb_orders_with_status_all(): void
     {
@@ -102,7 +102,7 @@ final class OrdersTest extends IntegrationTestCase
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v7-ORDERS.html#_get_fbb_orders_with_status_open
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v8-ORDERS.html#_get_fbb_orders_with_status_open
      */
     public function get_fbb_orders_with_status_open(): void
     {
@@ -115,7 +115,7 @@ final class OrdersTest extends IntegrationTestCase
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v7-ORDERS.html#_get_fbr_orders_with_status_all
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v8-ORDERS.html#_get_fbr_orders_with_status_all
      */
     public function get_fbr_orders_with_status_all(): void
     {
@@ -128,7 +128,7 @@ final class OrdersTest extends IntegrationTestCase
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v7-ORDERS.html#_get_fbr_orders_with_status_open
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v8-ORDERS.html#_get_fbr_orders_with_status_open
      */
     public function get_fbr_orders_with_status_open(): void
     {
