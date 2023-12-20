@@ -8,7 +8,7 @@ final class ProcessStatusesTest extends IntegrationTestCase
 {
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v9-PROCESS_STATUS.html#_generate_a_process_status_pending_using_entity_id_and_event_type
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v10-PROCESS_STATUS.html#_generate_a_process_status_pending_using_entity_id_and_event_type
      */
     public function generate_a_process_status_pending_using_entity_id_and_event_type(): void
     {
@@ -21,7 +21,7 @@ final class ProcessStatusesTest extends IntegrationTestCase
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v9-PROCESS_STATUS.html#_generate_a_process_status_failure_using_entity_id_and_event_type
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v10-PROCESS_STATUS.html#_generate_a_process_status_failure_using_entity_id_and_event_type
      */
     public function generate_a_process_status_failure_using_entity_id_and_event_type(): void
     {
@@ -34,7 +34,7 @@ final class ProcessStatusesTest extends IntegrationTestCase
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v9-PROCESS_STATUS.html#_generate_a_process_status_timeout_using_entity_id_and_event_type
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v10-PROCESS_STATUS.html#_generate_a_process_status_timeout_using_entity_id_and_event_type
      */
     public function generate_a_process_status_timeout_using_entity_id_and_event_type(): void
     {
@@ -47,7 +47,7 @@ final class ProcessStatusesTest extends IntegrationTestCase
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v9-PROCESS_STATUS.html#_generate_a_process_status_success_using_entity_id_and_event_type
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v10-PROCESS_STATUS.html#_generate_a_process_status_success_using_entity_id_and_event_type
      */
     public function generate_a_process_status_success_using_entity_id_and_event_type(): void
     {
