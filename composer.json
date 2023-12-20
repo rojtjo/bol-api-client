@@ -1,7 +1,7 @@
 {
     "name": "rojtjo/bol-api-client",
     "type": "library",
-    "description": "Bol.com Retailer API client v7",
+    "description": "Bol.com Retailer API client v10",
     "keywords": [
         "bol",
         "api",
