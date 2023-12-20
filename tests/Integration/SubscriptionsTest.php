@@ -4,11 +4,13 @@ declare(strict_types=1);
 
 namespace Tests\Integration;
 
+use Rojtjo\Bol\Types\SubscriptionType;
+
 final class SubscriptionsTest extends IntegrationTestCase
 {
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/api/demo/v9-SUBSCRIPTIONS.html#_retrieve_push_notification_subscription_list
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v10-SUBSCRIPTIONS.html#_retrieve_push_notification_subscription_list
      */
     public function retrieve_push_notification_subscription_list(): void
     {
@@ -21,7 +23,7 @@ final class SubscriptionsTest extends IntegrationTestCase
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/api/demo/v9-SUBSCRIPTIONS.html#_trigger_sending_of_a_test_push_notification_for_subscription
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v10-SUBSCRIPTIONS.html#_trigger_sending_of_a_test_push_notification_for_subscription
      */
     public function trigger_sending_of_a_test_push_notification_for_subscription(): void
     {
@@ -34,20 +36,24 @@ final class SubscriptionsTest extends IntegrationTestCase
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/api/demo/v9-SUBSCRIPTIONS.html#_create_push_notification_subscription
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v10-SUBSCRIPTIONS.html#_create_push_notification_subscription
      */
     public function create_push_notification_subscription(): void
     {
         $processStatus = $this->bol
             ->subscriptions()
-            ->createSubscription(['PROCESS_STATUS'], 'https://www.example.com/push');
+            ->createSubscription(
+                ['PROCESS_STATUS'],
+                'https://www.example.com/push',
+                SubscriptionType::Webhook,
+            );
 
         $this->assertMatchesObjectSnapshot($processStatus->withFixedTimestamp());
     }
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/api/demo/v9-SUBSCRIPTIONS.html#_delete_existing_push_notification_subscription
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v10-SUBSCRIPTIONS.html#_delete_existing_push_notification_subscription
      */
     public function delete_existing_push_notification_subscription(): void
     {
@@ -60,7 +66,7 @@ final class SubscriptionsTest extends IntegrationTestCase
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/api/demo/v9-SUBSCRIPTIONS.html#_retrieve_push_notification_subscription
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v10-SUBSCRIPTIONS.html#_retrieve_push_notification_subscription
      */
     public function retrieve_push_notification_subscription(): void
     {
@@ -73,13 +79,19 @@ final class SubscriptionsTest extends IntegrationTestCase
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/api/demo/v9-SUBSCRIPTIONS.html#_update_existing_push_notification_subscription
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v10-SUBSCRIPTIONS.html#_update_existing_push_notification_subscription
      */
     public function update_existing_push_notification_subscription(): void
     {
         $processStatus = $this->bol
             ->subscriptions()
-            ->updateSubscription('1234', ['PROCESS_STATUS'], 'https://www.example.com/push');
+            ->updateSubscription(
+                '1234',
+                ['PROCESS_STATUS'],
+                'https://www.example.com/push',
+                SubscriptionType::Webhook,
+                false,
+            );
 
         $this->assertMatchesObjectSnapshot($processStatus->withFixedTimestamp());
     }

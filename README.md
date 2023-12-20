@@ -3,7 +3,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/rojtjo/bol-api-client.svg?style=flat-square)](https://packagist.org/packages/rojtjo/bol-api-client)
 [![Tests](https://github.com/rojtjo/bol-api-client/actions/workflows/tests.yml/badge.svg)](https://github.com/rojtjo/bol-api-client/actions/workflows/tests.yml)
 
-Interact with the Bol.com API v9.
+Interact with the Bol.com API v10.
 
 ## Installation
 

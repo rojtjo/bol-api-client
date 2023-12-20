@@ -8,7 +8,7 @@ use GuzzleHttp\Psr7\Request;
 
 final class RequestUtil
 {
-    public const CONTENT_TYPE = 'application/vnd.retailer.v9+json';
+    public const CONTENT_TYPE = 'application/vnd.retailer.v10+json';
 
     public static function createRequest(string $method, string $uri, array $headers = [], array $query = [], mixed $body = null): Request
     {

@@ -23,7 +23,7 @@ final class OffersTest extends IntegrationTestCase
 {
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v9-OFFERS.html#_create_an_offer_export_csv_file
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v10-OFFERS.html#_create_an_offer_export_csv_file
      */
     public function create_an_offer_export_csv_file(): void
     {
@@ -36,7 +36,7 @@ final class OffersTest extends IntegrationTestCase
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v9-OFFERS.html#_retrieve_an_offer_export_csv_file
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v10-OFFERS.html#_retrieve_an_offer_export_csv_file
      */
     public function retrieve_an_offer_export_csv_file(): void
     {
@@ -49,7 +49,7 @@ final class OffersTest extends IntegrationTestCase
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v9-OFFERS.html#_retrieve_an_offer
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v10-OFFERS.html#_retrieve_an_offer
      */
     public function retrieve_an_offer(): void
     {
@@ -62,7 +62,7 @@ final class OffersTest extends IntegrationTestCase
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v9-OFFERS.html#_update_of_an_already_existing_offer_with_offerid_13722de8_8182_d161_5422_4a0a1caab5c8
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v10-OFFERS.html#_update_of_an_already_existing_offer_with_offerid_13722de8_8182_d161_5422_4a0a1caab5c8
      */
     public function create_fbr_offer_for_ean_9780471117094_with_condition_new_with_vvb_proposition(): void
     {
@@ -98,7 +98,7 @@ final class OffersTest extends IntegrationTestCase
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v9-OFFERS.html#_create_fbr_offer_for_ean_0045496420253_with_condition_moderate
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v10-OFFERS.html#_create_fbr_offer_for_ean_0045496420253_with_condition_moderate
      */
     public
     function create_fbr_offer_for_ean_0045496420253_with_condition_moderate(): void
@@ -136,7 +136,7 @@ final class OffersTest extends IntegrationTestCase
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v9-OFFERS.html#_delete_an_already_existing_offer_that_is_known_with_offerid_13722de8_8182_d161_5422_4a0a1caab5c8
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v10-OFFERS.html#_delete_an_already_existing_offer_that_is_known_with_offerid_13722de8_8182_d161_5422_4a0a1caab5c8
      */
     public
     function delete_an_already_existing_offer_that_is_known_with_offerid_13722de8_8182_d161_5422_4a0a1caab5c8(): void
@@ -150,7 +150,7 @@ final class OffersTest extends IntegrationTestCase
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v9-OFFERS.html#_update_the_price_for_a_specific_offer
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v10-OFFERS.html#_update_the_price_for_a_specific_offer
      */
     public
     function update_the_price_for_a_specific_offer(): void
@@ -174,7 +174,7 @@ final class OffersTest extends IntegrationTestCase
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v9-OFFERS.html#_update_the_current_stock_level_for_offerid_13722de8_8182_d161_5422_4a0a1caab5c8
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v10-OFFERS.html#_update_the_current_stock_level_for_offerid_13722de8_8182_d161_5422_4a0a1caab5c8
      */
     public
     function update_the_current_stock_level_for_offerid_13722de8_8182_d161_5422_4a0a1caab5c8(): void
@@ -190,7 +190,7 @@ final class OffersTest extends IntegrationTestCase
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v9-OFFERS.html#_update_of_an_already_existing_offer_with_offerid_13722de8_8182_d161_5422_4a0a1caab5c8
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v10-OFFERS.html#_update_of_an_already_existing_offer_with_offerid_13722de8_8182_d161_5422_4a0a1caab5c8
      */
     public
     function update_of_an_already_existing_offer_with_offerid_13722de8_8182_d161_5422_4a0a1caab5c8(): void
@@ -214,7 +214,7 @@ final class OffersTest extends IntegrationTestCase
 
     /**
      * @test
-     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v9-OFFERS.html#_update_of_an_already_existing_offer_with_offerid_13722de8_8182_d161_5422_4a0a1caab5c8_2
+     * @see https://api.bol.com/retailer/public/Retailer-API/demo/v10-OFFERS.html#_update_of_an_already_existing_offer_with_offerid_13722de8_8182_d161_5422_4a0a1caab5c8_2
      */
     public
     function update_of_an_already_existing_offer_with_offerid_13722de8_8182_d161_5422_4a0a1caab5c8_2(): void

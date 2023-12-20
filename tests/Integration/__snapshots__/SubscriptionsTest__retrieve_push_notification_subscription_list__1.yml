@@ -2,3 +2,5 @@
     id: '1234'
     resources: [PROCESS_STATUS]
     url: 'https://www.example.com/push'
+    subscriptionType: { name: Webhook, value: WEBHOOK }
+    enabled: true
