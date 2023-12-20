@@ -10,6 +10,7 @@ use Rojtjo\Bol\Types\ProcessStatus;
 use Rojtjo\Bol\Types\SignatureKeyCollection;
 use Rojtjo\Bol\Types\Subscription;
 use Rojtjo\Bol\Types\SubscriptionCollection;
+use Rojtjo\Bol\Types\SubscriptionType;
 
 final class SubscriptionConnector extends ConnectorAbstract
 {
@@ -39,21 +40,24 @@ final class SubscriptionConnector extends ConnectorAbstract
         return Subscription::fromPayload($data);
     }
 
-    public function createSubscription(array $resources, string $url): ProcessStatus
+    public function createSubscription(array $resources, string $url, SubscriptionType $subscriptionType): ProcessStatus
     {
         $data = $this->send('POST', 'subscriptions', body: [
-            'resources' => $resources,
-            'url'       => $url,
+            'resources'        => $resources,
+            'url'              => $url,
+            'subscriptionType' => $subscriptionType->value,
         ]);
 
         return ProcessStatus::fromPayload($data);
     }
 
-    public function updateSubscription(string $subscriptionId, array $resources, string $url): ProcessStatus
+    public function updateSubscription(string $subscriptionId, array $resources, string $url, SubscriptionType $subscriptionType, bool $enabled): ProcessStatus
     {
         $data = $this->send('PUT', "subscriptions/$subscriptionId", body: [
-            'resources' => $resources,
-            'url'       => $url,
+            'resources'        => $resources,
+            'url'              => $url,
+            'subscriptionType' => $subscriptionType->value,
+            'enabled'          => $enabled
         ]);
 
         return ProcessStatus::fromPayload($data);

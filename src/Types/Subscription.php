@@ -10,6 +10,8 @@ final class Subscription
         public readonly string $id,
         public readonly array $resources,
         public readonly string $url,
+        public readonly SubscriptionType $subscriptionType,
+        public readonly bool $enabled,
     )
     {
     }
@@ -20,6 +22,8 @@ final class Subscription
             $subscription['id'],
             $subscription['resources'],
             $subscription['url'],
+            SubscriptionType::from($subscription['subscriptionType']),
+            $subscription['enabled'],
         );
     }
 }
