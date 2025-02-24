@@ -1,6 +1,6 @@
 processStatusId: '1'
 entityId: '555551'
-eventType: CONFIRM_SHIPMENT
+eventType: CREATE_SHIPMENT
 description: 'This is a mocked process status.'
 status:
     pending: true
