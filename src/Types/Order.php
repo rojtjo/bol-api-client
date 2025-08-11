@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Rojtjo\Bol\Types;
 
 use DateTimeImmutable;
+use Rojtjo\Bol\Util\Timestamp;
 
 final class Order
 {
@@ -93,7 +94,7 @@ final class Order
                                 $orderItem['additionalServices'] ?? [],
                             ),
                         ),
-                        new DateTimeImmutable($orderItem['latestChangedDateTime'])
+                        Timestamp::parse($orderItem['latestChangedDateTime'])
                     ),
                     $payload['orderItems'],
                 ),

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Rojtjo\Bol\Types;
 
 use DateTimeImmutable;
+use Rojtjo\Bol\Util\Timestamp;
 
 final class PushMessage
 {
@@ -20,7 +21,7 @@ final class PushMessage
     {
         return new self(
             $payload['retailerId'],
-            new DateTimeImmutable($payload['timeStamp']),
+            Timestamp::parse($payload['timeStamp']),
             new Event(
                 $payload['event']['resource'],
                 $payload['event']['type'],
