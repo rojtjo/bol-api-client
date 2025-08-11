@@ -6,6 +6,7 @@ namespace Rojtjo\Bol\Types;
 
 use DateTimeImmutable;
 use Rojtjo\Bol\Common\TypedCollection;
+use Rojtjo\Bol\Util\Timestamp;
 
 final class ExportOfferCollection extends TypedCollection
 {
@@ -33,7 +34,7 @@ final class ExportOfferCollection extends TypedCollection
                         FulfilmentMethod::from($offer['fulfilmentType']),
                         DeliveryCode::from($offer['fulfilmentDeliveryCode']),
                     ),
-                    new DateTimeImmutable($offer['mutationDateTime']),
+                    Timestamp::parse($offer['mutationDateTime']),
                 ),
                 $payload,
             ),

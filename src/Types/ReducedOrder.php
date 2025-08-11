@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Rojtjo\Bol\Types;
 
 use DateTimeImmutable;
+use Rojtjo\Bol\Util\Timestamp;
 
 final class ReducedOrder
 {
@@ -34,7 +35,7 @@ final class ReducedOrder
                     quantityShipped: (int) $item['quantityShipped'],
                     quantityCancelled: (int) $item['quantityCancelled'],
                     cancellationRequest: (bool) $item['cancellationRequest'],
-                    latestChangedDateTime: new DateTimeImmutable($item['latestChangedDateTime']),
+                    latestChangedDateTime: Timestamp::parse($item['latestChangedDateTime']),
                 ),
                 $payload['orderItems'] ?? [],
             ),
